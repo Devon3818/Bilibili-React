@@ -1,0 +1,28 @@
+.Card {
+    width: 48%;
+    height: 5rem;
+    background: #fff;
+    border-radius: 0.4rem;
+    margin-bottom: 0.4rem;
+    box-shadow: 0 4px 8px 0 rgba(7, 17, 27, 0.04);
+    img {
+        display: block;
+        width: 100%;
+    }
+    .card_info {
+        padding: 0.3rem;
+        font-size: 0.3rem;
+        .card_title {
+            overflow: hidden;
+            text-overflow: ellipsis;
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+            height: 1rem;
+            margin-bottom: 0.2rem;
+        }
+        .card_tag {
+            color: #969696;
+        }
+    }
+}

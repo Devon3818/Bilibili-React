@@ -1,0 +1,26 @@
+.Footer {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    background: #fff;
+    border-top: 1px solid #ccc;
+    height: 1.6rem;
+    a {
+        display: flex;
+        flex: 1;
+        font-size: 0.3rem;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        color: #ababab;
+        i {
+            font-size: 0.7rem;
+        }
+    }
+    .active {
+        color: #f25d8e;
+    }
+}
