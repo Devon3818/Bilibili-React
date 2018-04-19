@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import SwipeableViews from 'react-swipeable-views';
 
-import HeaderSmart from '../components/HeaderSmart/HeaderSmart'
+import HeaderSmart from '../components/HeaderSmart/HeaderSmart';
 import NavSmart from '../components/NavSmart/NavSmart';
 import Recommend from './Recommend';
 

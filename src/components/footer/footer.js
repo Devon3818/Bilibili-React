@@ -14,11 +14,11 @@ class Footer extends Component {
                     <i className="iconfont icon-shouyexuanzhong" />
                     <span>首页</span>
                 </NavLink>
-                <NavLink  to="/class" exact activeClassName='active'>
+                <NavLink  to="/iclass" exact activeClassName='active'>
                     <i className="iconfont icon-fenquxuanzhong" />
                     <span>分区</span>
                 </NavLink>
-                <NavLink  to="/fund" exact activeClassName='active'>
+                <NavLink  to="/dynamic" exact activeClassName='active'>
                     <i className="iconfont icon-dongtaixuanzhong" />
                     <span>动态</span>
                 </NavLink>
