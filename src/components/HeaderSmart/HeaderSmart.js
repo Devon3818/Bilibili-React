@@ -6,7 +6,8 @@ class HeaderSmart extends Component {
         super(props);
         this.state = {
             hasShadow: this.props.hasShadow || true,
-            title: this.props.title || null
+            title: this.props.title || null,
+            icons: this.props.icons || []
         }
     }
     render() { 
@@ -18,10 +19,11 @@ class HeaderSmart extends Component {
                 </div>
                 {this.state.title?<p className="title">{this.state.title}</p>:null}
                 <div className="icons">
-                    <i className="iconfont icon-POP_GitHub" />
-                    <i className="iconfont icon-about" />
-                    <i className="iconfont icon-xiazai" />
-                    <i className="iconfont icon-xiazai5" />
+                {
+                    this.state.icons.map((name,index)=>(
+                        <i className={`iconfont ${name}`} />
+                    ))
+                }
                 </div>
             </div>
          )

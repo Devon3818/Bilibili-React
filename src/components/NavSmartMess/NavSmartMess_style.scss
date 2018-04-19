@@ -1,0 +1,40 @@
+.NavSmartMess {
+    width: 100%;
+    height: 1.2rem;
+    background: #f25d8e;
+    box-shadow: 0 5px 8px 0 rgba(7,17,27,.1);
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    span {
+        display: block;
+        width: 14%;
+        height: 3px;
+        background: #fff;
+        position: absolute;
+        bottom: 0;
+        left: 3%;
+        box-shadow: 0 4px 8px 0 rgba(7,17,27,.1);
+        transition: all .2s ease-in;
+    }
+    .left-0 {
+        left: 10%;
+    }
+    .left-1 {
+        left: 43%;
+    }
+    .left-2 {
+        left: 76%;
+    }
+    .nav-tab {
+        text-align: center;
+        font-size: .3rem;
+        float: left;
+        width: 33.3%;
+        a {
+            color: #fff;
+        }
+    }
+}

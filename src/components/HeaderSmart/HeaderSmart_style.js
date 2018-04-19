@@ -12,9 +12,10 @@ export default StyleSheet.create({
     'textAlign': 'center'
   },
   'HeaderSmart title': {
-    'fontSize': [{ 'unit': 'rem', 'value': 0.8 }],
+    'fontSize': [{ 'unit': 'rem', 'value': 0.55 }],
     'flex': '1',
-    'color': '#fff'
+    'color': '#fff',
+    'fontWeight': '300'
   },
   'HeaderSmart left-cont': {
     'position': 'absolute',
@@ -46,7 +47,6 @@ export default StyleSheet.create({
   'HeaderSmart icons i': {
     'color': '#fff',
     'fontSize': [{ 'unit': 'rem', 'value': 0.65 }],
-    'fontWeight': '700',
     'marginLeft': [{ 'unit': 'rem', 'value': 0.5 }]
   },
   'hasShadow': {

@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './IconItem_style.scss';
 
 class IconItem extends Component {
     constructor(props) {
@@ -7,7 +8,10 @@ class IconItem extends Component {
     }
     render() { 
         return (
-            <div className="IconItem"></div>
+            <div className="IconItem">
+                <img src={`/icon/${this.props.title}.png`} />
+                <p>{this.props.title}</p>
+            </div>
         )
     }
 }

@@ -1,3 +1,12 @@
 .IconItem {
-    background: #f1f1f1;
+    width: 25%;
+    padding: .4rem 0;
+    font-size: .4rem;
+    text-align: center;
+    color: #a7a7a7;
+    img {
+        width: 0.9rem;
+        display: block;
+        margin: 0 auto .2rem;
+    }
 }

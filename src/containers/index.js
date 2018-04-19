@@ -5,6 +5,13 @@ import HeaderSmart from '../components/HeaderSmart/HeaderSmart';
 import NavSmart from '../components/NavSmart/NavSmart';
 import Recommend from './Recommend';
 
+const icons = [
+    'icon-POP_GitHub',
+    'icon-about',
+    'icon-xiazai',
+    'icon-xiazai5'
+];
+
 class Index extends Component {
     constructor(props) {
         super(props);
@@ -32,15 +39,15 @@ class Index extends Component {
 
         return (
             <div className="Index">
-                <HeaderSmart hasShadow={false} />
+                <HeaderSmart icons={icons} hasShadow={false} />
                 <NavSmart index={this.state.tabIndex} handleChange={idx => this.handleChange(idx)} />
                 
                 <SwipeableViews index={this.state.tabIndex} animateHeight onChangeIndex={this.handleChangeIndex}>
-                    <div>lide n°1</div>
                     <Recommend />
-                    <div>slide n°3</div>
-                    <div>slide n°4</div>
-                    <div>slide n°5</div>
+                    <Recommend />
+                    <Recommend />
+                    <Recommend />
+                    <Recommend />
                 </SwipeableViews>
                 
             </div>

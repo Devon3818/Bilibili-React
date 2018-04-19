@@ -8,9 +8,10 @@
     align-items: center;
     text-align: center;
     .title {
-        font-size: .8rem;
+        font-size: .55rem;
         flex: 1;
         color: #fff;
+        font-weight: 300;
     }
     .left-cont {
         position: absolute;
@@ -41,7 +42,6 @@
         i {
             color: #fff;
             font-size: .65rem;
-            font-weight: 700;
             margin-left: .5rem;
         }
     }
