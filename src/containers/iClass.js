@@ -1,6 +1,10 @@
 import React, { Component } from 'react';
 import HeaderSmart from '../components/HeaderSmart/HeaderSmart';
 
+const style = {
+    background: '#fdfdfdc7'
+}
+
 class iClass extends Component {
     constructor(props) {
         super(props);
@@ -8,7 +12,7 @@ class iClass extends Component {
     }
     render() { 
         return (
-            <div className="iClass">
+            <div style={style} className="iClass">
                 <HeaderSmart />
                 <p>iClass</p>
             </div>

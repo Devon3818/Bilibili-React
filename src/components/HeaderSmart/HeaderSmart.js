@@ -5,7 +5,7 @@ class HeaderSmart extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            hasShadow: this.props.hasShadow || false,
+            hasShadow: this.props.hasShadow || true,
             title: this.props.title || null
         }
     }
