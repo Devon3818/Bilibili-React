@@ -2,7 +2,9 @@ import React, { Component } from 'react';
 import HeaderSmart from '../components/HeaderSmart/HeaderSmart';
 import NavSmartMess from '../components/NavSmartMess/NavSmartMess';
 import SwipeableViews from 'react-swipeable-views';
-import DynamicCard from '../components/DynamicCard/DynamicCard';
+import DynamicVideo from '../containers/DynamicVideo';
+import DynamicSynthesize from '../containers/DynamicSynthesize';
+import DynamicHot from '../containers/DynamicHot';
 
 const icons = [
     "icon-bianji1"
@@ -36,13 +38,9 @@ class Dynamic extends Component {
                 <HeaderSmart icons={icons} title="动态" />
                 <NavSmartMess index={this.state.tabIndex} handleChange={idx => this.handleChange(idx)} />
                 <SwipeableViews index={this.state.tabIndex} animateHeight onChangeIndex={this.handleChangeIndex}>
-                    <div>
-                        <DynamicCard />
-                        <DynamicCard />
-                        <DynamicCard />
-                    </div>
-                    <div></div>
-                    <div></div>
+                    <DynamicVideo />
+                    <DynamicSynthesize />
+                    <DynamicHot />
                 </SwipeableViews>
             </div>
         )

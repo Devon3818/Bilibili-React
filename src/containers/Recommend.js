@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Banner from '../components/Banner/Banner'
+import Banner from '../components/Banner/Banner';
 import Card from '../components/Card/Card';
 import './Recommend_style.scss';
 

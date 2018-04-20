@@ -3,7 +3,7 @@ import { StyleSheet } from 'react-native';
 export default StyleSheet.create({
   'HeaderSmart': {
     'width': [{ 'unit': '%H', 'value': 1 }],
-    'height': [{ 'unit': 'rem', 'value': 2 }],
+    'height': [{ 'unit': 'rem', 'value': 1.5 }],
     'overflow': 'hidden',
     'background': '#f25d8e',
     'position': 'relative',

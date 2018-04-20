@@ -5,10 +5,11 @@ class HeaderSmart extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            hasShadow: this.props.hasShadow || true,
+            hasShadow: this.props.hasShadow?true:false,
             title: this.props.title || null,
             icons: this.props.icons || []
         }
+        
     }
     render() { 
         return ( 

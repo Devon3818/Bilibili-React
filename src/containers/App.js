@@ -1,25 +1,16 @@
 import React, { Component } from 'react';
-import { BrowserRouter, Route, Switch } from 'react-router-dom';
-import Index from './index';
-import iClass from './iClass';
-import Dynamic from './Dynamic';
-import Message from './Message';
-import Footer from '../components/footer/footer';
+import { Provider } from 'react-redux';
+import { BrowserRouter } from 'react-router-dom';
+import Main from './Main';
 
 class App extends Component {
   render() {
     return (
-      <BrowserRouter>
-        <div>
-          <Route exact path="/" component={Index} />
-          <Route path="/iclass" component={iClass} />
-          <Route path="/dynamic" component={Dynamic} />
-          <Route path="/message" component={Message} />
-          <Switch>
-            <Footer/>
-          </Switch>
-        </div>
-      </BrowserRouter>
+      <Provider>
+        <BrowserRouter>
+          <Main />
+        </BrowserRouter>
+      </Provider>
     );
   }
 }

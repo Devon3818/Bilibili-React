@@ -26,7 +26,7 @@ class iClass extends Component {
     render() { 
         return (
             <div style={style.iClass} className="iClass">
-                <HeaderSmart icons={icons} title="分区" />
+                <HeaderSmart icons={icons} title="分区" hasShadow={true} />
                 <div className="classWrap" style={style.classWrap}>
                     <IconItem title="直播"/>
                     <IconItem title="番剧"/>

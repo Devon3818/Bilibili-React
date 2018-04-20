@@ -24,7 +24,7 @@ class Message extends Component {
     render() { 
         return (
             <div className="Message">
-                <HeaderSmart icons={icons} title="消息" />
+                <HeaderSmart icons={icons} title="消息"  hasShadow={true}/>
                 <div className="menuWrap" style={style.menuWrap}>
                     <IconItem title="回复我的"/>
                     <IconItem title="@我"/>

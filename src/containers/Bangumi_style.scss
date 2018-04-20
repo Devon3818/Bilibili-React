@@ -1,0 +1,136 @@
+.Bangumi {
+    width: 100%;
+    .top {
+        width: 100%;
+        background: #fff;
+        margin-bottom: .4rem;
+        .iclass {
+            width: 100%;
+            height: 2rem;
+            display: flex;
+            justify-content: space-around;
+            padding: .6rem 0;
+            margin-bottom: .2rem;
+            .item {
+                width: 4.2rem;
+                height: 1.2rem;
+                border-radius: 999rem;
+                position: relative;
+                color: #fff;
+                font-size: .5rem;
+                line-height: 1.2rem;
+                text-align: right;
+                padding-right: 0.7rem;
+                img {
+                    position: absolute;
+                    left: 0.2rem;
+                    top: -0.6rem;
+                    width: 2rem;
+                }
+            }
+            .item-l {
+                background: #00bcd4;
+            }
+            .item-r {
+                background: #ff7d84;
+            }
+        }
+        .tags {
+            width: 100%;
+            background: #fff;
+            border-top: 1px solid #fbfbfb;
+            padding: .2rem;
+            a {
+                width: 33.3%;
+                color: #999;
+                float: left;
+                font-size: .3rem;
+                text-align: center;
+                line-height: 1rem;
+            }
+            .center {
+                border-left: 1px solid #fbfbfb;
+                border-right: 1px solid #fbfbfb;
+            }
+            img {
+                display: inline-block;
+                width: .7rem;
+                position: relative;
+                top: .1rem;
+            }
+        }
+    }
+    // 推荐
+    .tui-wrap {
+        width: 100%;
+        padding: .3rem;
+        background: #fff;
+    }
+    .sm-title {
+        line-height: 1.4rem;
+        h5 {
+            font-size: .4rem;
+        }
+        span {
+            font-size: .3rem;
+            color: #999;
+        }
+    }
+    .tui-wrap {
+        margin-top: .4rem;
+    }
+    .boxs {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: .5rem;
+    }
+    .fan-card {
+        width: 31%;
+        img {
+            display: block;
+            width: 100%;
+            border: 2px solid #f0f0f02b;
+        }
+        .fan-info {
+            position: relative;
+            p {
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                background: rgba(0,0,0,0.2);
+                color: #fff;
+                font-size: .3rem;
+                padding: .1rem .14rem;
+            }
+        }
+        color: #999;
+        font-size: .3rem;
+        h5 {
+            color: #000;
+            color: #666;
+            line-height: .8rem;
+            font-size: .4rem;
+        }
+    }
+    .news {
+        width: 100%;
+        background: #f9f9f969;
+        img {
+            display: block;
+            width: 100%;
+        }
+        .news-info {
+            padding: .3rem;
+        }
+        h5 {
+            font-size: .4rem;
+            margin-bottom: .2rem;
+            color: #666;
+        }
+        p {
+            font-size: .3rem;
+            color: #999;
+        }
+    }
+}

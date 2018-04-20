@@ -3,7 +3,11 @@ import SwipeableViews from 'react-swipeable-views';
 
 import HeaderSmart from '../components/HeaderSmart/HeaderSmart';
 import NavSmart from '../components/NavSmart/NavSmart';
+import Live from './Live';
 import Recommend from './Recommend';
+import Bangumi from './Bangumi';
+import Cinephile from './Cinephile';
+import Category from './Category';
 
 const icons = [
     'icon-POP_GitHub',
@@ -43,11 +47,11 @@ class Index extends Component {
                 <NavSmart index={this.state.tabIndex} handleChange={idx => this.handleChange(idx)} />
                 
                 <SwipeableViews index={this.state.tabIndex} animateHeight onChangeIndex={this.handleChangeIndex}>
+                    <Live />
                     <Recommend />
-                    <Recommend />
-                    <Recommend />
-                    <Recommend />
-                    <Recommend />
+                    <Bangumi />
+                    <Cinephile />
+                    <Category />
                 </SwipeableViews>
                 
             </div>
