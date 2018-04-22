@@ -4,6 +4,11 @@ import Index from './index';
 import iClass from './iClass';
 import Dynamic from './Dynamic';
 import Message from './Message';
+import History from './History';
+import Cache from './Cache';
+import Collect from './Collect';
+import Followers from './Followers';
+import Login from './Login';
 import Footer from '../components/footer/footer';
 import LeftMenu from '../components/LeftMenu/LeftMenu';
 import CSSTransitionGroup from 'react-transition-group/CSSTransitionGroup';
@@ -23,6 +28,11 @@ class Main extends Component {
                 <Route path="/dynamic" component={Dynamic} />
                 <Route path="/message" component={Message} />
                 <Switch>
+                    <Route path="/history" component={History} />
+                    <Route path="/cache" component={Cache} />
+                    <Route path="/collect" component={Collect} />
+                    <Route path="/followers" component={Followers} />
+                    <Route path="/login" component={Login} />
                     <Footer/>
                 </Switch>
                 <CSSTransitionGroup

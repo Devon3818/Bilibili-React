@@ -12,6 +12,9 @@ export default StyleSheet.create({
     'right': [{ 'unit': 'px', 'value': 0 }],
     'zIndex': '999'
   },
+  'LeftMenu i': {
+    'fontSize': [{ 'unit': 'rem', 'value': 0.5 }]
+  },
   'LeftMenu ulMenu active li': {
     'background': '#e4e4e4',
     'color': '#f25d8e'
@@ -92,7 +95,8 @@ export default StyleSheet.create({
   },
   'LeftMenu user-info uname': {
     'fontSize': [{ 'unit': 'rem', 'value': 0.5 }],
-    'marginBottom': [{ 'unit': 'rem', 'value': 0.2 }]
+    'marginBottom': [{ 'unit': 'rem', 'value': 0.2 }],
+    'color': '#fff'
   },
   'LeftMenu user-info ubi': {
     'fontSize': [{ 'unit': 'rem', 'value': 0.4 }],

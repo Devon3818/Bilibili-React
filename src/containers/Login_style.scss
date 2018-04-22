@@ -1,0 +1,56 @@
+.Login {
+    .top {
+        width: 100%;
+        height: 2.5rem;
+        position: relative;
+        overflow: hidden;
+        text-align: center;
+        line-height: 2.5rem;
+        i {
+            font-size: 1rem;
+            color: #999;
+        }
+        img {
+            position: absolute;
+            height: 4rem;
+            bottom: -1.5rem;
+        }
+        .kpan_l {
+            left: -0.1rem;
+        }
+        .kpan_r {
+            right: -0.5rem;
+        }
+    }
+    .input-wrap {
+        width: 90%;
+        margin: 0 auto 1rem;
+        padding-top: 22px;
+        input {
+            font-size: .4rem;
+            color: #999;
+            transition: all .2s ease;
+            outline: none;
+            display: block;
+            width: 100%;
+            margin-bottom: 16px;
+            line-height: 1.2rem;
+            padding: 0 .3rem;
+            border: 1px solid #eee;
+            &:focus {
+                border: 1px solid #f25d8e;
+            }
+        }
+    }
+    .btn {
+        width: 90%;
+        margin: 0 auto;
+        height: 1.2rem;
+        line-height: 1.2rem;
+        color: #fff;
+        text-align: center;
+        font-size: .5rem;
+        border-radius: 5rem;
+        background: #00a1d6;
+    }
+}

@@ -19,12 +19,14 @@ class LeftMenu extends Component {
             <div className="LeftMenu" onClick={this.icloseMenu}>
                 <div className="content">
                     <div className="user-info">
+                        <NavLink  to="/login" exact>
                         <img className="uhead" src="https://avatars1.githubusercontent.com/u/11835988?s=460&v=4" />
                         <p className="uname">Devon</p>
                         <p className="ubi">
                             <span>硬币：4</span>
                             <span>B币：0.0</span>
                         </p>
+                        </NavLink>
                         <div className="icon clear">
                             <i className="iconfont icon-qianbao" />
                             <i className="iconfont icon-erweima" />
@@ -38,22 +40,30 @@ class LeftMenu extends Component {
                             首页
                         </li>
                         </NavLink>
+                        <NavLink  to="/history" exact activeClassName='active'>
                         <li>
                             <i className="iconfont icon-lishijilu" />
                             历史记录
                         </li>
+                        </NavLink>
+                        <NavLink  to="/cache" exact activeClassName='active'>
                         <li>
                             <i className="iconfont icon-yunxiazai" />
                             离线缓存
                         </li>
+                        </NavLink>
+                        <NavLink  to="/collect" exact activeClassName='active'>
                         <li>
                             <i className="iconfont icon-shoucang" />
                             我的收藏
                         </li>
+                        </NavLink>
+                        <NavLink  to="/followers" exact activeClassName='active'>
                         <li>
                             <i className="iconfont icon-zhibohuifang" />
-                            稍后再看
+                            我的关注
                         </li>
+                        </NavLink>
                         <li>
                             <i className="iconfont icon-zhibo1" />
                             直播中心
