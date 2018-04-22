@@ -10,6 +10,7 @@
     "react-scripts": "1.1.4",
     "react-swipeable-views": "^0.12.13",
     "react-swipeable-views-utils": "^0.12.13",
+    "react-transition-group": "^1.2.1",
     "redux": "^3.7.2"
   },
   "scripts": {
