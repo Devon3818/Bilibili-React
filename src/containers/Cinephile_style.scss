@@ -1,0 +1,51 @@
+.Cinephile {
+    padding-bottom: 3.5rem;
+    .top {
+        padding: .3rem;
+        background: #fff;
+        box-shadow: 0 0px 8px 0 rgba(7, 17, 27, 0.1);
+        margin-bottom: .5rem;
+        .banner-wrap {
+            border-radius: .3rem;
+            overflow: hidden;
+        }
+        .menu {
+            display: flex;
+            padding: .3rem 0;
+            .item {
+                flex: 1;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                text-align: center;
+                font-size: .3rem;
+                img {
+                    width: 1rem;
+                }
+                flex-direction: column;
+            }
+        }
+    }
+    .tui-wrap {
+        width: 100%;
+        padding: .3rem;
+        background: #fff;
+        margin-bottom: .4rem;
+    }
+    .sm-title {
+        line-height: 1.4rem;
+        h5 {
+            font-size: .4rem;
+        }
+        span {
+            font-size: .3rem;
+            color: #999;
+        }
+    }
+    .videos {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        
+    }
+}
