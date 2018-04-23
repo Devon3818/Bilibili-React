@@ -1,4 +1,4 @@
-# Bilibili React 10%
+# Bilibili React
 
 ![Progress](http://progressed.io/bar/10?title=progress) 
 ## Screenshots
