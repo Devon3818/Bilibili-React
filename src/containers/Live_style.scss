@@ -1,0 +1,45 @@
+.Live {
+    padding: .3rem;
+    .banner-wrap {
+        border-radius: .2rem;
+        overflow: hidden;
+        margin-bottom: .6rem;
+    }
+    .pink-user {
+        width: 100%;
+        height: 3rem;
+        overflow-x: scroll;
+        ::-webkit-scrollbar{width:0px}
+        .wrap {
+            width: 24rem;
+        }
+        .item {
+            float: left;
+            width: 2.36rem;
+            text-align: center;
+            font-size: .35rem;
+            img {
+                border: 1px solid #f25d8e;
+                width: 1.4rem;
+                height: 1.4rem;
+                border-radius: 100%;
+                display: block;
+                margin: 0 auto .1rem;
+            }
+            p {
+                margin-bottom: .1rem;
+            }
+            span {
+                font-size: .3rem;
+                color: #999;
+            }
+        }
+    }
+    .live-wrap {
+        padding-top: 0.4rem;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        
+    }
+}
